@@ -4,7 +4,7 @@ import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common'
 export class NinjasController {
     @Get()
     getNinjas(){
-        return ["ninjas assasin"];
+        return ["ninjas assasin assembled"];
     }
 
     @Get(':id')
